@@ -1,0 +1,32 @@
+h1 { 
+    color: white;
+    font-size: 70px;
+}
+
+body {
+    background-color: purple;
+}
+
+p {
+    line-height: 1.5; 
+    font-size: 10px;
+}
+h1 {
+  text-align: center;
+
+}
+p1 {
+    color: white;
+    font-size: 15px;
+    font-style: italic;
+}
+
+nav {
+    color: blue;
+}
+header {
+    color: white;
+}
+img {
+    float: inline-end;
+}
