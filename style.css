@@ -1,5 +1,5 @@
 html {
-  background-color: #731E1F;
+    background: linear-gradient(to bottom, #bd3a3a, #c68888);
 }
 
 body {
@@ -135,15 +135,6 @@ p em {
   color: #ffffff;
 }
 
-.TitleMainPage {
-  display: block;
-  padding: 20px;
-  border: 2px solid #000000;
-  background-color: #ffffff;
-  border-radius: 10px;
-  
-}
-
 .textMainPage p {
   display: block;
   width: 45%;
@@ -167,4 +158,13 @@ p em {
 
 }
 
-
+.HeaderHomePage, .HeaderAboutUs, .HeaderCategories, .HeaderMaps, .HeaderFAQ, .HeaderContactUs {
+  display: block;
+  width: 101%;
+  margin: 50px 0;
+  padding: 15px;
+  border: 2px solid #000000;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
