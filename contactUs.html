@@ -21,8 +21,43 @@
     <section class="HeaderContactUs">
         <h1>Contact Page</h1>
       </section>
-<p> Contact us via this page for answers to more specific / important answers to your questions. </p>
-</header>
+<section class="ContactIntro">
+<p>If your question hasn't been answered on the FAQ page, your free to submit the contact form down below:</p>
+</section>
+
+    </header>
+<main>
+  <section class="contactFormSection">
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Contact Form</legend>
+
+        <label for="fullName">Full name*</label>
+        <input type="text" id="fullName" name="fullName" required>
+
+        <label for="email">Email address*</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone number (optional)</label>
+        <input type="tel" id="phone" name="phone">
+
+        <label for="salutation">Your salutation</label>
+        <select id="salutation" name="salutation">
+          <option value="">Select</option>
+          <option value="mr">Mr.</option>
+          <option value="ms">Ms.</option>
+          <option value="other">Other</option>
+        </select>
+
+        <label for="message">Your question/request*</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+  </section>
+</main>
+
 <footer>
         <p>&copy; 2025 S.A.C (Student Activity Center). All rights reserved.</p>
       </footer>
