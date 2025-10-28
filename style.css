@@ -1,5 +1,5 @@
 html {
-    background: linear-gradient(to bottom, #000000, #ff9494, #000000);
+    background-color: white;
     
 }
 
@@ -54,36 +54,16 @@ nav {
   
   position: fixed;
   top: 0;
-  left: 0;
+  left: 10;
   width: 100%;
   background-color:  #000000 ;
   padding: 25px;
-  text-align: center;
   border-bottom: 2px solid #000000;
-  
- 
+  text-align: right;
+ }
 
 
-}
 
-nav a,
-nav button {
-  text-decoration: none;
-  color: white;
-  background-color: #000000;
-  padding: 8px 12px;
-  border-radius: 5px;
-  font-size: 14px;
-  border: none;
-  cursor: pointer;
-}
-
-nav a:hover,
-nav button:hover {
-  background-color: #6a6666;
-}
-
-/* clickable boxes with the flex box*/
 .box-container {
   display: flex;
   justify-content: center;
@@ -111,16 +91,26 @@ nav button:hover {
   background-color: #6a6666;
 }
 
-footer {
+footer{
+  background: linear-gradient(#ffffff, #000000);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 300px
+}
+
+footer p {
+ 
   text-align: center;
   padding: 20px;
   font-size: 12px;
-  color: #555;
+  color: #ffffff;
 }
 
 nav a {
-  background-color: #ccc;
-  color: black;
+  background-color: #D72638;
+  color: rgb(255, 255, 255);
   padding: 8px 12px;
   border-radius: 5px;
   font-size: 14px;
@@ -128,7 +118,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #5f5c5c;
+  background-color: #475cb3;
 }
 
 p em {
@@ -136,43 +126,37 @@ p em {
   color: #ffffff;
 }
 
-.textMainPage p {
+.textMainPage  {
   display: block;
   width: 45%;
-  margin: 50px 0;
   padding: 15px;
   border: 2px solid #000000;
-  background-color: #ffffff;
-  border-radius: 10px;
-  margin-top: 10px;
+  background-color: #C5C5C5;
 }
 
-.titleMainPageText {
+
+
+.HeaderAboutUs, .HeaderCategories, .HeaderMaps, .HeaderFAQ, .HeaderContactUs {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: #D72638; 
+  border-radius: 10px;
+  margin-top: 3px;
+  margin-bottom: 10px;
+  
+}
+
+.HeaderHomePage{
   display: block;
   width: 45%;
-  margin: 50px 0;
-  padding: 15px;
-  border: 2px solid #000000;
-  background-color: #ffffff;
-  border-radius: 10px;
-  margin-bottom: 10px;
-
+  height: 10%;
+  background-color: #D72638; 
+   
 }
-
-.HeaderHomePage, .HeaderAboutUs, .HeaderCategories, .HeaderMaps, .HeaderFAQ, .HeaderContactUs {
-  display: block;
-  width: 40%;
-  margin: 50px 0;
-  padding: 15px;
-  background-image: url('https://cdn-thumbs.ohmyprints.net/1/78891c22ca1d79428681ada1b9309514/389x260/dynamic-size/fit/639760fb8e8e5d7d4952a9a87122c4f60423a836bf3c9e10d386131c1cc3f3d8.jpg'); 
-  background-size: cover; 
-  background-position: center; 
-  background-repeat: no-repeat; 
-  border-radius: 10px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  
-  
+.HeaderHomePage, .textMainPage{
+  margin-right: auto;
+  margin-left: 30px;
 }
 
 .introIMG {
@@ -182,6 +166,8 @@ p em {
   gap: 30px;
   margin: 50px;
 
+  
+
 }
 
 
@@ -190,7 +176,7 @@ p em {
   display: flex; 
   justify-content: space-between; 
   align-items: center; 
-  width: 100%;
+  width: 65%;
   margin: 50px 0;
   padding: 15px;
   border: 2px solid #000000;
@@ -214,20 +200,20 @@ p em {
 
 .introImage figcaption {
   text-align: center; 
-  font-size: 12px; 
-  color: #333; 
+  font-size: 22px; 
+  color: #ffffff; 
   margin-top: 8px; 
 }
 
 
-/* Contact form - Contact us page */
+/* Contact form - Contact us page (tut)*/
 
 .contactFormSection {
   display: block;
   margin: 50px auto;
   max-width: 600px;
   padding: 20px;
-  background-color: #ffffff;
+  background-color: #636363;
   border: 2px solid #000;
   border-radius: 10px;
 }
@@ -270,9 +256,7 @@ form button {
   cursor: pointer;
 }
 
-form button:hover {
-  background-color: #6a6666;
-}
+
 
 .ContactIntro {
 display: block;
@@ -294,11 +278,12 @@ font-size: 30px;
   border: 2px solid #000000;
 }
 
-.HeaderHomePage h1,
+.HeaderHomePage h2,
 .HeaderHomePage p,
 .HeaderHomePage em {
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+  text-align: center;
 }
 
 .HeaderAboutUs h1, 
@@ -310,3 +295,10 @@ color: white;
 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
 
 }
+
+.ContactButton {
+color: #ffffff;
+background-color: #656565;
+
+}
+
