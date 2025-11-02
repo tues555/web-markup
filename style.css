@@ -8,6 +8,11 @@ body {
   font-family: sans-serif;
 }
 
+html, body {
+  height: 100%;
+}
+
+
 h1 {
   color: rgb(0, 0, 0);
   font-size: 70px;
@@ -97,7 +102,7 @@ footer{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 100px
+  height: auto;
 }
 
 footer p {
@@ -129,7 +134,7 @@ p em {
 .textMainPage1  {
   display: block;
   margin: 0 auto;
-  width: 45%;
+  width: 70%;
   padding: 15px;
   border: 2px solid #000000;
   background-color: #C5C5C5;
@@ -144,7 +149,7 @@ p em {
 .textMainPage2  {
   display: block;
   margin: 0 auto;
-  width: 45%;
+  width: 70%;
   padding: 15px;
   border: 2px solid #000000;
   background-color: #C5C5C5;
@@ -159,24 +164,56 @@ p em {
   
 }
 
+/** Call to action buttons **/
+
 .CTAButtonHOMEPAGE p{
 
-  font-size: 25px;
-  background-color: transparent;
-  color: #fff;
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
 }
+
 .CTAButtonHOMEPAGE {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  margin-bottom: 30px;
-  height: 50px;
+  margin-bottom: 50px;
+  gap: 15px;
 }
+
+.CTAButtonAboutMePage p{
+
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+}
+
+.CTAButtonAboutMePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+  gap: 15px;
+}
+
+.cta-button{
+background-color: #D72638;
+color: #ffffff;
+padding: 10px 30px;
+font-size: 25px;
+border-radius: 8px;
+
+
+}
+
+/** Text blocks **/
 
 .textAboutMe1  {
   display: block;
   margin: 0 auto;
-  width: 45%;
+  width: 70%;
   padding: 15px;
   border: 2px solid #000000;
   background-color: #C5C5C5;
@@ -191,7 +228,7 @@ p em {
 .textAboutMe2   {
   display: block;
   margin: 0 auto;
-  width: 45%;
+  width: 70%;
   padding: 15px;
   border: 2px solid #000000;
   background-color: #C5C5C5;
@@ -209,7 +246,7 @@ p em {
 .textCategories1  {
   display: block;
   margin: 0 auto;
-  width: 45%;
+  width: 70%;
   padding: 15px;
   border: 2px solid #000000;
   background-color: #C5C5C5;
@@ -391,3 +428,66 @@ background-color: #656565;
 
 }
 
+/* possible layout for the logo in my navbar and footer
+.navbar-logo {
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom:0px;
+  margin-top: 0px;
+}
+
+
+.logo-footer{
+  height: 100px;
+  width: 100px;
+  margin-bottom: 1px;
+}
+**/
+
+/** Images homepage **/
+
+.introIMG { 
+  display: flex; 
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  margin: 30px auto;
+  width: 40%;
+} 
+
+.introIMG figure { 
+  width: 45%; 
+  text-align: center;
+ }
+  
+ .introIMG img 
+ { width: 100%; 
+  aspect-ratio: 4 / 3;  
+  object-fit: cover;    
+  border-radius: 10px;
+  border: 2px solid #000;
+ }
+
+ .AboutMeIMG { 
+  display: flex; 
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  margin: 30px auto;
+  width: 40%;
+} 
+
+.AboutMeIMG figure { 
+  width: 45%; 
+  text-align: center;
+ }
+  
+ .AboutMeIMG img 
+ { width: 100%; 
+  aspect-ratio: 4 / 3;  
+  object-fit: cover;    
+  border-radius: 10px;
+  border: 2px solid #000;
+ }
