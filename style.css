@@ -23,9 +23,11 @@ h1 {
 }
 
 p {
-  color: rgb(0, 0, 0);
-  line-height: 1.5;
-  font-size: 10px;
+  font-size: 20px;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  word-spacing: 2px;
+  text-indent: 20px;
 }
 
 li {
@@ -44,6 +46,7 @@ header {
   padding-top: 100px;
   text-align: center;
   color: rgb(15, 13, 13);
+  margin-bottom: auto;
 }
 
 nav {
@@ -127,11 +130,11 @@ p em {
   margin: 0 auto;
   width: 70%;
   padding: 15px;
-  border: 2px solid #000000;
   background-color: #C5C5C5;
   text-align: center;
   font-size: 30px;
   margin-bottom: 20px;
+  border-radius: 12px;
 }
 
 .textMainPage1 p {
@@ -142,14 +145,13 @@ p em {
   margin: 0 auto;
   width: 70%;
   padding: 15px;
-  border: 2px solid #000000;
   background-color: #C5C5C5;
   text-align: center;
   font-size: 30px;
   margin-bottom: 20px;
-
-  
+  border-radius: 12px;
 }
+
 .textMainPage2 p {
   font-size: 20px;
   
@@ -206,11 +208,11 @@ border-radius: 8px;
   margin: 0 auto;
   width: 70%;
   padding: 15px;
-  border: 2px solid #000000;
   background-color: #C5C5C5;
   text-align: center;
   font-size: 30px;
   margin-bottom: 20px;
+  border-radius: 12px;
 }
 
 .textAboutMe1 p {
@@ -221,11 +223,11 @@ border-radius: 8px;
   margin: 0 auto;
   width: 70%;
   padding: 15px;
-  border: 2px solid #000000;
   background-color: #C5C5C5;
   text-align: center;
   font-size: 30px;
   margin-bottom: 20px;
+  border-radius: 12px;
 
   
 }
@@ -239,11 +241,11 @@ border-radius: 8px;
   margin: 0 auto;
   width: 70%;
   padding: 15px;
-  border: 2px solid #000000;
   background-color: #C5C5C5;
   text-align: center;
   font-size: 30px;
   margin-bottom: 20px;
+  border-radius: 12px;
 }
 
 .textCategories1 p {
@@ -253,11 +255,11 @@ border-radius: 8px;
 .textCategories2, .textCategories3, .textCategories4, .textCategories5{
   width: 45%;
   padding: 15px;
-  border: 2px solid #000000;
   background-color: #C5C5C5;
   text-align: center;
   font-size: 30px;
   margin-bottom: 20px;
+  border-radius: 12px;
 }
 
 .textCategories2 p , .textCategories3 p , .textCategories4 p , .textCategories5 p {
@@ -270,11 +272,11 @@ font-size: 20px;
   margin: 0 auto;
   width: 75%;
   padding: 15px;
-  border: 2px solid #000000;
   background-color: #C5C5C5;
   text-align: center;
   font-size: 30px;
   margin-bottom: 20px;
+  border-radius: 12px;
 }
 .textMaps1 p {
   font-size: 20px;
@@ -286,9 +288,6 @@ font-size: 20px;
   align-items: flex-start;
   gap: 30px;
   margin: 50px;
-
-  
-
 }
 
 
@@ -333,8 +332,8 @@ font-size: 20px;
   display: block;
   margin: 50px auto;
   max-width: 600px;
-  padding: 20px;
-  background-color: #636363;
+  padding: 20px 50px;
+  background-color: #8a8888;
   border: 2px solid #000;
   border-radius: 10px;
 }
@@ -377,21 +376,6 @@ form button {
   cursor: pointer;
 }
 
-
-
-.ContactIntro {
-display: block;
-background-color: #ffffff;
-padding: 10px;
-margin-bottom: 4px;
-border: 2px solid #000000;
-font-size: 30px;
-
-}
-
-
-  
-
 .HeaderHomePage h2,
 .HeaderHomePage p,
 .HeaderHomePage em {
@@ -400,33 +384,12 @@ font-size: 30px;
   text-align: center;
 }
 
-
-
-
-
 .ContactButton {
 color: #ffffff;
 background-color: #656565;
 
 }
 
-/* possible layout for the logo in my navbar and footer
-.navbar-logo {
-  height: 50px;
-  width: 50px;
-  float: left;
-  margin-right: 20px;
-  margin-bottom:0px;
-  margin-top: 0px;
-}
-
-
-.logo-footer{
-  height: 100px;
-  width: 100px;
-  margin-bottom: 1px;
-}
-**/
 
 /** Images homepage **/
 
@@ -566,3 +529,50 @@ padding: 0 4px;
 }
 
 
+/** contactpage **/
+
+.ContactIntro p{
+font-size: 20px;
+
+}
+
+.ContactIntro {
+display: block;
+background-color: #c5c5c5;
+padding: 10px;
+margin-bottom: 4px;
+border-radius: 12px;
+}
+
+.HeaderPage h1{
+color: #ffffff;
+text-shadow:  
+  -1px -3px 0 #000000, 1px -3px 0 #000000, 
+  -1px 3px 0 #000000, 1px 3px 0 #000000, 
+  -3px -1px 0 #000000, 3px -1px 0 #000000,
+  -3px 1px 0 #000000, 3px 1px 0 #000000, 
+  -3px -3px 0 #000000, 3px -3px 0 #000000, 
+  -3px 3px 0 #000000, 3px 3px 0 #000000;;
+}
+
+/* possible layout for the logo in my navbar and footer */
+.navbar-logo {
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom:0px;
+  margin-top: 0px;
+}
+
+
+.logo-footer{
+  height: 180px;
+  width: 180px;
+  margin-bottom: 1px;
+}
+
+header {
+  padding-top: 100px;
+  text-align: center;
+}
