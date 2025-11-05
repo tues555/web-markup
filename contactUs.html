@@ -1,70 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
-  <title>Contact Page</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact Page</title>
+    <link
+      rel="icon"
+      href="/img/transparant-background-NoText.png"
+      type="image/png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+        <label for="menu-toggle" class="hamburger">&#9776;</label>
+        <a href="index.html">
+          <img
+            src="img/transparant-background-NoText.png"
+            alt="Logo Site"
+            title="Logo of Website"
+            class="nav-logo"
+          />
+        </a>
+        <a href="aboutUs.html">About me</a>
+        <a href="categories.html">Categories</a>
+        <a href="maps.html">Maps</a>
+        <a href="FAQ.html">FAQ</a>
+        <a href="contactUs.html" class="ContactButton">Contact us</a>
+      </nav>
 
-<header> 
-    
-    <nav>
-      <a href="index.html">Homepage</a>
-      <a href="aboutUs.html">About me</a> 
-      <a href="categories.html">Categories</a> 
-      <a href="maps.html">Maps</a> 
-      <a href="FAQ.html">FAQ</a> 
-      <a href="contactUs.html" class="ContactButton">Contact us</a>
-      
-    </nav>
-    
-    
-    <section class="HeaderPage">
+      <section class="HeaderPage">
         <h1>Contact Page</h1>
       </section>
-<section class="ContactIntro">
-  <h2>Still have questions?</h2>
-<p>Contact us by sending an email to <strong> 745953@gmail.com </strong> <p> <strong>or</strong> <p> Fill in the form down below:
-We’ll get back to you as soon as possible!</p>
-</section>
-
+      <section class="ContactIntro">
+        <h2>Still have questions?</h2>
+        <p>
+          Contact us by sending an email to <strong> 745953@gmail.com </strong>
+        </p>
+        <p><strong>or</strong></p>
+        <p>
+          Fill in the form down below: We’ll get back to you as soon as
+          possible!
+        </p>
+      </section>
     </header>
-<main>
-  <section class="contactFormSection">
-    <form action="#" method="post">
-      <fieldset>
-        <legend>Contact Form</legend>
+    <main>
+      <section class="contactFormSection">
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Contact Form</legend>
 
-        <label for="fullName">Full name*</label>
-        <input type="text" id="fullName" name="fullName" required>
+            <label for="fullName">Full name*</label>
+            <input type="text" id="fullName" name="fullName" required />
 
-        <label for="email">Email address*</label>
-        <input type="email" id="email" name="email" required>
+            <label for="email">Email address*</label>
+            <input type="email" id="email" name="email" required />
 
-        <label for="phone">Phone number (optional)</label>
-        <input type="tel" id="phone" name="phone">
+            <label for="phone">Phone number (optional)</label>
+            <input type="tel" id="phone" name="phone" />
 
-        <label for="salutation">Your salutation</label>
-        <select id="salutation" name="salutation">
-          <option value="">Select</option>
-          <option value="mr">Mr.</option>
-          <option value="ms">Ms.</option>
-          <option value="other">Other</option>
-        </select>
+            <label for="salutation">Your salutation</label>
+            <select id="salutation" name="salutation">
+              <option value="">Select</option>
+              <option value="mr">Mr.</option>
+              <option value="ms">Ms.</option>
+              <option value="other">Other</option>
+            </select>
 
-        <label for="message">Your question/request*</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
+            <label for="message">Your question/request*</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
 
-        <button type="submit">Submit</button>
-      </fieldset>
-    </form>
-  </section>
-</main>
+            <button type="submit">Submit</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
 
-<footer>
-        <p>&copy; 2025 S.A.C (Student Activity Center). All rights reserved.</p>
-      </footer>
-<body>
-
-
-
+    <footer>
+      <a href="index.html">
+        <img
+          src="img/transparant-background-NoText.png"
+          alt="Logo Site"
+          title="Logo of Website"
+          class="footer-logo"
+        />
+      </a>
+      <p>&copy; 2025 S.A.C (Student Activity Center). All rights reserved.</p>
+    </footer>
+  </body>
+</html>
