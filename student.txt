@@ -1,0 +1,5 @@
+Student name: Ties Maximiliaan Johannes Kerkhof
+Student number: 745953
+Student class: HAIT25FT1C
+GitHub Repository: https://github.com/tues555/web-markup
+GitHub Pages URL: https://tues555.github.io/web-markup
