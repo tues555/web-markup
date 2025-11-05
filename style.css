@@ -734,6 +734,15 @@ header {
   margin-left: 10px;
 }
 
-#cookie-toggle:checked + .cookie-content {
+#cookie-toggle:checked ~ .cookie-content,
+#cookie-toggle:checked ~ .cookie-text {
   display: none;
+}
+.cookie-text {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  margin: 0;
 }
